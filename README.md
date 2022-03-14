@@ -1,1 +1,3 @@
 # DAWII_Cuadro_de_mando
+
+Para empezar, en nuestro caso hemos seleccionado la tabla TheGymDashboard_Tables ofrecida por la asignatura. A continuación, añadiremos dicha tabla en la aplicación de PowerBI y seleccionaremos su presentación según las distintas opciones que nos ofrece la herramienta. Una vez terminado, nos dirigimos a My workspace, accesible desde la versión web de la herramienta, y copiamos el código para HTML de nuestro proyecto. Para terminar, solo faltaría realizar un archivo HTML donde implementaremos el código del proyecto y modificar un poco el documento para que quede presentable.

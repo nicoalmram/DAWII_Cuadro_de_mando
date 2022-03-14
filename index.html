@@ -3,26 +3,36 @@
         <meta charset="utf-8">
         <title>PowerBI</title>
         <link rel="stylesheet" type="text/css" href="css.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="bootstrap-5.0.0-beta1-dist/css/carousel.css" rel="stylesheet">
+        <link href="bootstrap-5.0.0-beta1-dist/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap-5.0.0-beta1-dist/offcanvas/offcanvas.css" rel="stylesheet">
     </head>
-    <nav><h1>Victoria Royale</h1></nav>
     <body>
-        <button><a href="data.html">Data</a></button>
-        <button><a href="financial.html">Financial</a></button>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Double D Petshop</a>
+              <button class="navbar-toggler p-0 border-0" type="button" id="offcanvas" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="items.html" aria-current="page" >Items</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Sign In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <iframe title="Data DAWII" width="600" height="373.5" 
         src="https://app.powerbi.com/view?r=eyJrIjoiNmI0OTNlMDAtYzgzNC00OWJkLTg5NmYtMTQ1OWE1OWIwOTM1IiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9&pageName=ReportSection" 
         frameborder="0" allowFullScreen="true"></iframe>
-        <!--
-        <iframe title="Data DAWII" width="600" height="373.5" 
-        src="https://app.powerbi.com/view?r=eyJrIjoiNmI0OTNlMDAtYzgzNC00OWJkLTg5NmYtMTQ1OWE1OWIwOTM1IiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9&pageName=ReportSection" 
-        frameborder="0" allowFullScreen="true"></iframe>
-
-        <iframe title="Data - Página 1" width="1140" height="541.25" 
-        src="https://app.powerbi.com/reportEmbed?reportId=5144848c-64b2-45ee-b374-d502651974e2&autoAuth=true&ctid=b2bb731c-460d-420f-a475-3ed615a82987&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" 
-        frameborder="0" allowFullScreen="true"></iframe>
-
-        <iframe title="Financial DAWII - Página 1" width="600" height="373.5" 
-        src="https://app.powerbi.com/view?r=eyJrIjoiZjE1MjQ2NjQtYTI5Ny00YTQwLTlmODktNjhiMTBkNGEyMWM2IiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9" 
-        frameborder="0" allowFullScreen="true"></iframe>
-        -->
     </body>
 </HTML>

@@ -2,8 +2,5 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.navbar navbar-expand-lg fixed-top navbar-dark bg-dark {
-    margin-bottom: 5cm;
+    margin-top: 5cm;
 }

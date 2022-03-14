@@ -4,6 +4,6 @@ iframe {
     margin-right: auto;
 }
 
-.container-fluid {
+.navbar navbar-expand-lg fixed-top navbar-dark bg-dark {
     margin-bottom: 5cm;
 }
